@@ -1,33 +1,64 @@
-﻿using System;
+﻿using ProjectionAndFiltering;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ProjectionAndFiltering
+public class Employee : IEnumerable<EmployeeInfo>
 {
-    public class Employee : IEnumerable<Employee>
+    private static List<EmployeeInfo> _employees = new();
+
+    public Employee()
     {
-        private static List<Employee> _employees = new List<Employee>();
-        public Employee()
-        {
-            _employees.Add(this);
-        }
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public int Salary { get; set; }
-        public int Age { get; set; }
-        public string Department { get; set; }
 
-        public IEnumerator GetEnumerator()
-        {
-            return _employees.GetEnumerator();
-        }
-
-        IEnumerator<Employee> IEnumerable<Employee>.GetEnumerator()
-        {
-            return _employees.GetEnumerator();
-        }
     }
+    public EmployeeInfo this[int index]
+    {
+        get => _employees[index];
+    }
+
+    public void Add(EmployeeInfo emp)
+    {
+        _employees.Add(emp);
+    }
+    public IEnumerator<EmployeeInfo> GetEnumerator()
+    {
+        foreach (var employee in _employees)
+        {
+            yield return employee;
+        }
+
+
+        //return new EmployeeInfoEnumerator(_employees);
+    }
+
+    IEnumerator IEnumerable.GetEnumerator()
+    {
+        return GetEnumerator();
+    }
+    //private class EmployeeInfoEnumerator : IEnumerator<EmployeeInfo>
+    //{
+    //    private readonly List<EmployeeInfo> _employees;
+    //    private int _currentIndex = -1;
+    //    public EmployeeInfoEnumerator(List<EmployeeInfo> employees)
+    //    {
+    //        _employees = employees;
+    //    }
+    //    public EmployeeInfo Current => _employees[_currentIndex];
+
+    //    object IEnumerator.Current => Current;
+
+    //    public void Dispose()
+    //    {
+    //    }
+
+    //    public bool MoveNext()
+    //    {            
+    //        return ++_currentIndex < _employees.Count;
+    //    }
+
+    //    public void Reset()
+    //    {
+    //        throw new NotImplementedException();
+    //    }
+    //}
 }
+

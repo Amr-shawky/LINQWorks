@@ -1,6 +1,6 @@
 ﻿namespace LINQWorks
 {
-    internal class Program
+    public class Program
     {
             /*
               * Introduction
@@ -14,6 +14,7 @@
             */
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello, LINQ World!");
 
 
             // methode syntax 

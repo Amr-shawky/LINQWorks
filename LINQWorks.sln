@@ -5,7 +5,7 @@ VisualStudioVersion = 17.14.36301.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQWorks", "LINQWorks\LINQWorks.csproj", "{44A08419-6313-4A4C-9A58-AAF1D3BF2ABF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projection&Filtering", "Filtering\Projection&Filtering.csproj", "{B36F6A89-E5A7-4AAC-815F-3EA97DF2D922}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumerators", "Filtering\Enumerators.csproj", "{B36F6A89-E5A7-4AAC-815F-3EA97DF2D922}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
