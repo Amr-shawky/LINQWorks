@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quantifiers", "Quantifiers\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeferredAndImmediateExecution", "DeferredAndImmediateExecution\DeferredAndImmediateExecution.csproj", "{7ED38EF1-8927-4974-AA62-8BE43F299D29}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Partitioning", "Partitioning\Partitioning.csproj", "{E820DBDC-89EC-4A29-8D7D-8A6F6799E0A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{7ED38EF1-8927-4974-AA62-8BE43F299D29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7ED38EF1-8927-4974-AA62-8BE43F299D29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7ED38EF1-8927-4974-AA62-8BE43F299D29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E820DBDC-89EC-4A29-8D7D-8A6F6799E0A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E820DBDC-89EC-4A29-8D7D-8A6F6799E0A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E820DBDC-89EC-4A29-8D7D-8A6F6799E0A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E820DBDC-89EC-4A29-8D7D-8A6F6799E0A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +56,7 @@ Global
 		{9420EBCE-D965-4B90-A381-C99F143791DE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{A25503BE-7780-401A-98DE-E786FC9C9455} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{7ED38EF1-8927-4974-AA62-8BE43F299D29} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{E820DBDC-89EC-4A29-8D7D-8A6F6799E0A1} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D3AF4068-E2B7-4727-AC36-B7D5013A75A5}
