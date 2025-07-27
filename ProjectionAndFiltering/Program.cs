@@ -10,6 +10,7 @@
             // Filtering: Selecting records based on certain criteria
             // Example: Using LINQ to project and filter a list of products by a syntax method
             // select, where, OfType.
+            Console.ForegroundColor = ConsoleColor.Green;
             var products = new List<Product>
             {
                 new Product { Id = 1, Name = "Product 1", Price = 100 },
@@ -47,6 +48,7 @@
                 Console.WriteLine($"Id: {vip.Id}, Name: {vip.Name}, Price: {vip.Price}");
             }
             // example using query syntax
+            Console.ForegroundColor = ConsoleColor.Blue;
             var query = from p in products
                         where p.Price > 150
                         select p;
