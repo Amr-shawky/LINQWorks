@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36301.6
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQWorks", "LINQWorks\LINQWorks.csproj", "{44A08419-6313-4A4C-9A58-AAF1D3BF2ABF}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumerators", "Filtering\Enumerators.csproj", "{B36F6A89-E5A7-4AAC-815F-3EA97DF2D922}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LINQ", "LINQ", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectionAndFiltering", "ProjectionAndFiltering\ProjectionAndFiltering.csproj", "{45CB57FE-25DC-42A9-B4FA-C3A4D854E1D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,17 +15,20 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{44A08419-6313-4A4C-9A58-AAF1D3BF2ABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{44A08419-6313-4A4C-9A58-AAF1D3BF2ABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{44A08419-6313-4A4C-9A58-AAF1D3BF2ABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{44A08419-6313-4A4C-9A58-AAF1D3BF2ABF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B36F6A89-E5A7-4AAC-815F-3EA97DF2D922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B36F6A89-E5A7-4AAC-815F-3EA97DF2D922}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B36F6A89-E5A7-4AAC-815F-3EA97DF2D922}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B36F6A89-E5A7-4AAC-815F-3EA97DF2D922}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45CB57FE-25DC-42A9-B4FA-C3A4D854E1D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45CB57FE-25DC-42A9-B4FA-C3A4D854E1D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45CB57FE-25DC-42A9-B4FA-C3A4D854E1D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45CB57FE-25DC-42A9-B4FA-C3A4D854E1D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{45CB57FE-25DC-42A9-B4FA-C3A4D854E1D1} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D3AF4068-E2B7-4727-AC36-B7D5013A75A5}

@@ -3,7 +3,7 @@ using System;
 using System.ComponentModel.DataAnnotations;
 using System.Xml.Linq;
 
-namespace Filtering
+namespace Enumerator
 {
     public class Program
     {
