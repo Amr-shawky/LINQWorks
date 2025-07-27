@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Partitioning", "Partitionin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetOperations", "SetOperations\SetOperations.csproj", "{22C13AD8-7C4C-4B41-AA83-A3684156821A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoinsAndGrouping", "JoinsAndGrouping\JoinsAndGrouping.csproj", "{657A7330-81D1-40D4-8218-78A3442D4E0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{22C13AD8-7C4C-4B41-AA83-A3684156821A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22C13AD8-7C4C-4B41-AA83-A3684156821A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22C13AD8-7C4C-4B41-AA83-A3684156821A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{657A7330-81D1-40D4-8218-78A3442D4E0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{657A7330-81D1-40D4-8218-78A3442D4E0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{657A7330-81D1-40D4-8218-78A3442D4E0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{657A7330-81D1-40D4-8218-78A3442D4E0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +70,7 @@ Global
 		{7ED38EF1-8927-4974-AA62-8BE43F299D29} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{E820DBDC-89EC-4A29-8D7D-8A6F6799E0A1} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{22C13AD8-7C4C-4B41-AA83-A3684156821A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{657A7330-81D1-40D4-8218-78A3442D4E0B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D3AF4068-E2B7-4727-AC36-B7D5013A75A5}
